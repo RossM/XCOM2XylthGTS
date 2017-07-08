@@ -6,7 +6,6 @@ event OnInit(UIScreen Screen)
 {
 	local XComGameStateHistory History;
 	local UIChooseClass ChooseClassScreen;
-	//local UISoldierHeader Header;
 	local XComGameState_HeadquartersXCom XComHQ;
 	local XComGameState_Unit UnitState, HQUnitState;
 	local XComGameState_Unit_XylthGTS XylthGTSState;
@@ -24,10 +23,6 @@ event OnInit(UIScreen Screen)
 	SoldierClassManager = class'X2SoldierClassTemplateManager'.static.GetSoldierClassTemplateManager();
 
 	ChooseClassScreen = UIChooseClass(Screen);
-
-	// Spawn a soldier header
-	//Header = ChooseClassScreen.Spawn(class'UISoldierHeader', ChooseClassScreen);
-	//Header.InitSoldierHeader(ChooseClassScreen.m_UnitRef);
 
 	XComHQ = `XCOMHQ;
 
