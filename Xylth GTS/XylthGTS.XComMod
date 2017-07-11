@@ -1,0 +1,5 @@
+﻿[mod]
+publishedFileId=0
+Title=Xylth's GTS
+Description=Restricts the GTS to only offer three random class options for each soldier (editable in config). Also displays the number of each class you have on the GTS screen.
+tags=UI, Gameplay, GTS, For Bilfdoffle
